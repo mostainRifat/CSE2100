@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<section class="section-intro padding-y-sm">
+<div class="container">
+
+<div class="intro-banner-wrap">
+	<img src="{% static 'images/banners/1.jpg' %}" class="img-fluid rounded">
+</div>
+
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION MAIN END// ========================= -->
+
+<!-- ========================= SECTION  ========================= -->
+<section class="section-name padding-y-sm">
+<div class="container">
+
+<header class="section-heading">
+	<a href="/store" class="btn btn-outline-primary float-right">See all</a>
+	<h3 class="section-title">Popular products</h3>
+</header><!-- sect-heading -->
+<div class="row">
+	<div class="col-md-3">
+		<div class="card card-product-grid">
+			<a href="./product-detail.html" class="img-wrap"> <img src="media\photos\products\ATX-Jeans_bGFuQAr.jpg"> </a>
+			<figcaption class="info-wrap">
+				<a href="./product-detail.html" class="title">Atx Jeans</a>
+				<div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
+			</figcaption>
+		</div>
+	</div> <!-- col.// -->
+	<div class="col-md-3">
+		<div class="card card-product-grid">
+			<a href="./product-detail.html" class="img-wrap"> <img src="media\photos\products\Blue-Shirt_1i8HAmV.jpg"> </a>
+			<figcaption class="info-wrap">
+				<a href="./product-detail.html" class="title">Blue Shirt</a>
+				<div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
+			</figcaption>
+		</div>
+	</div> <!-- col.// -->
+	<div class="col-md-3">
+		<div class="card card-product-grid">
+			<a href="./product-detail.html" class="img-wrap"> <img src="media\photos\products\jordan-true-flight-basketball-shoes_Lp0SIqN.jpg"> </a>
+			<figcaption class="info-wrap">
+				<a href="./product-detail.html" class="title">Jordan Shoe </a>
+				<div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
+			</figcaption>
+		</div>
+	</div> <!-- col.// -->
+	<!-- col.// -->
+	<div class="col-md-3">
+		<div class="card card-product-grid">
+			<a href="./product-detail.html" class="img-wrap"> <img src="media\photos\products\Puma-Ferrari-Shoes.jpg"> </a>
+			<figcaption class="info-wrap">
+				<a href="./product-detail.html" class="title">Nike Shoe</a>
+				<div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
+			</figcaption>
+		</div>
+	</div> <!-- col.// -->
+	 <!-- col.// -->
+	<div class="col-md-3">
+		<div class="card card-product-grid">
+			<a href="./product-detail.html" class="img-wrap"> <img src="media\photos\products\Wrangler-Shirt.jpg"> </a>
+			<figcaption class="info-wrap">
+				<a href="./product-detail.html" class="title">Wrangler Shirt</a>
+				<div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
+			</figcaption>
+		</div>
+	</div> <!-- col.// -->
+	
+</div> <!-- row.// -->
+
+{% endblock %}
